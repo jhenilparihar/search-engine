@@ -13,5 +13,6 @@ int main(int argc, char **argv)
     int k = atoi(argv[4]);
     if (read_size(&linecounter, &maxlength, argv[2])==-1)
         return -1;
-    return 0;
+    cout << "Initialization finished" << endl;
+    return 1;
 }
